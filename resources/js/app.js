@@ -18,7 +18,7 @@ import SignUp from './components/SignUp.vue';
             path: '/login', component:LoginPage
         },
         {
-        path: '/signup', component:SignUp
+        path: '/SignUp', component:SignUp
         },
         {
             path: '/home', component:HomeMsg

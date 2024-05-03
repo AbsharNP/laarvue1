@@ -4,13 +4,13 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active d-flex flex-column text-center" aria-current="page" href="home"><i class="fas fa-home fa-lg"></i><span class="small">Home</span></a>
+            <router-link to="/Home" class="nav-link active d-flex flex-column text-center" aria-current="page" ><i class="fas fa-home fa-lg"></i><span class="small">Home</span></router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link active d-flex flex-column text-center" aria-current="page" href="login"><i class="fas fa-home fa-lg"></i><span class="small">Login</span></a>
+            <router-link to="/Login" class="nav-link active d-flex flex-column text-center" aria-current="page"><i class="fas fa-home fa-lg"></i><span class="small">Login</span></router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link active d-flex flex-column text-center" aria-current="page" href="signup"><i class="fas fa-home fa-lg"></i><span class="small">SignUp</span></a>
+            <router-link to="/SignUp" class="nav-link active d-flex flex-column text-center" aria-current="page" ><i class="fas fa-home fa-lg"></i><span class="small">Register</span></router-link >
           </li>
         </ul>
             

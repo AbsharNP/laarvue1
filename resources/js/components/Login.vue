@@ -34,7 +34,8 @@
 
           <div class="divider d-flex align-items-center my-4">
             <!-- <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p> -->
-            <p class="p-3">Create an account?<a href="signup">Register</a></p>
+            <p class="p-3">Create an account?<router-link to="/SignUp" >register</router-link></p>
+            
           </div>
 
           <!-- <a data-mdb-ripple-init class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998" href="#!"

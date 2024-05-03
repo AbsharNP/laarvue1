@@ -46,7 +46,7 @@
 
                   <div class="form-check d-flex justify-content-center mb-5">
                     <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
-                    <label class="form-check-label" for="form2Example3">
+                    <label class="form-check-label" for="form2Example3" required>
                       I agree all statements in <a href="#!">Terms of service</a>
                     </label>
                   </div>
@@ -54,7 +54,7 @@
                   <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                     <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg">Register</button>
                   </div>
-                  <p class="p-3">already have an account?<a href="login">Login</a></p>
+                  <p class="p-3">already have an account?<router-link to="/Login" >SigIn</router-link></p>
 
                 </form>
 
